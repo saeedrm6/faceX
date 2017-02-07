@@ -160,3 +160,7 @@ header{
     color: #ef5285;
     border-color: #ef5285;
 }
+.icon--yellow{
+    color: rgba(241, 196, 15,1.0);
+    border-color: rgba(241, 196, 15,1.0);
+}
