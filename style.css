@@ -1,0 +1,162 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Raleway','Myriad Pro',Tahoma;
+}
+
+hr {
+    max-width: 50px;
+    border-color: #f05f40;
+    border-width: 3px;
+}
+
+hr.light {
+    border-color: #fff;
+}
+
+a {
+    color: #f05f40;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+a:hover,
+a:focus {
+    color: #eb3812;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway','Myriad Pro',Tahoma;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 13px;
+    line-height: 2;
+}
+
+.bg-primary {
+    background-color: #f05f40;
+}
+
+.bg-dark {
+    color: #fff;
+    background-color: #222;
+}
+
+.text-faded {
+    color: rgba(255,255,255,.7);
+}
+
+section {
+    padding: 50px 0;
+}
+
+aside {
+    padding: 50px 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+.navbar-brand{
+    font-weight: 600;
+    font-size: 35px;
+}
+.navbar-default{
+    background: transparent;
+    width: 100%;
+    border-color: transparent;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    border-radius: 0;
+}
+header{
+    width: 100%;
+    position: relative;
+    min-height: auto;
+    color: #fff;
+    text-align: center;
+    background-position: center;
+    background: url(images/imacc.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    animation: header 20s ease infinite;
+}
+@media screen and (min-width: 768px){
+    header{
+        min-height: 100%;
+    }
+}
+.navbar-default .navbar-nav > li > a , .navbar-default .navbar-brand{
+    color: rgba(255,255,255,.9);
+    font-weight: 600;
+    text-shadow: 1px 1px rgba(0,0,0,.6);
+}
+.navbar-default .navbar-nav > li > a:hover , .navbar-default .navbar-brand:hover{
+    color: #fff;
+}
+.header-content{
+    padding: 90px 0px;
+}
+.header-content h1{
+    font-size: 80px;
+    text-shadow: 3px 2px #000;
+}
+.header-content h2{
+    margin-bottom: 50px;
+    font-size: 40px;
+    text-shadow: 2px 1px #000;
+}
+.btn{
+    border:0;
+    border-radius: 300px;
+    padding:15px 30px;
+}
+.btn-primary{
+    border-color: #f05f40;
+    font-weight: 600;
+}
+.header-content .btn{
+    margin:0px 20px;
+}
+#about h2,#about p,#about h4,#about h3,#solutions h2,#solutions h4,#solutions h3, #solutions p{
+    font-weight: 600;
+}
+.service-icon {
+    /*display: table-cell;*/
+    vertical-align: middle;
+    border: 1px solid;
+    width: auto;
+    height: auto;
+    text-align: center;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.icon--orange {
+    color: #F68657;
+    border-color: #F68657;
+}
+.icon--green{
+    color: rgba(26, 188, 156,1.0);
+    border-color: rgba(26, 188, 156,1.0);
+}
+#solutions .glyphicon{
+    font-size: 50px;
+}
+.icon--red{
+    color: #ef5285;
+    border-color: #ef5285;
+}
