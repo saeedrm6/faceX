@@ -153,7 +153,7 @@ header{
     color: rgba(26, 188, 156,1.0);
     border-color: rgba(26, 188, 156,1.0);
 }
-#solutions .glyphicon{
+#solutions .glyphicon, #solutions .fa-3x{
     font-size: 50px;
 }
 .icon--red{
