@@ -131,7 +131,7 @@ header{
 .header-content .btn{
     margin:0px 20px;
 }
-#about h2,#about p,#about h4,#about h3,#solutions h2,#solutions h4,#solutions h3, #solutions p{
+#about h2,#about p,#about h4,#about h3,#solutions h2,#solutions h4,#solutions h3, #solutions p,#projects h2,#projects h4{
     font-weight: 600;
 }
 .service-icon {
