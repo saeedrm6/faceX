@@ -131,7 +131,7 @@ header{
 .header-content .btn{
     margin:0px 20px;
 }
-#about h2,#about p,#about h4,#about h3,#solutions h2,#solutions h4,#solutions h3, #solutions p,#projects h2,#projects h4{
+#join h3,#join p,#about h2,#about p,#about h4,#about h3,#solutions h2,#solutions h4,#solutions h3, #solutions p,#projects h2,#projects h4{
     font-weight: 600;
 }
 .service-icon {
@@ -174,4 +174,37 @@ header{
 .icon--green{
     color: rgba(39, 174, 96,1.0);
     border-color: rgba(39, 174, 96,1.0);
+}
+.logos,.logos img{
+    max-height: 150px;
+    margin: 0 auto;
+}
+#join{
+    min-height: 450px;
+    background: #4d76bf;
+    padding:0;
+}
+#two{
+    min-height: 450px;
+    text-align: center;
+    background-position: center;
+    background: url(images/join.png);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+#join h3{
+    font-size: 40px;
+    color: rgba(255,255,255,0.8);
+}
+#join p{
+    font-size: 16px;
+    color: rgba(255,255,255,0.8);
+}
+#join ul > li {
+    color: #fff;
+    list-style: circle;
+    padding: 10px;
+    font-weight: 600;
 }
