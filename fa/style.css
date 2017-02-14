@@ -265,3 +265,8 @@ img{
     width: 100%;
     transform: translateY(-50%);
 }
+@media screen and (max-width: 768px){
+    .portfolio-box img{
+        width: 100%;
+    }
+}
