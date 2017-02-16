@@ -274,3 +274,13 @@ img{
 .nav > li {
     display: inline-block;
 }
+#contact{
+    background-image: linear-gradient(39deg,#3398cc 16%,#66cc9a 83%);
+    min-height: 330px;
+}
+.rounded>div{
+    border-radius: 30px;
+}
+.contact_us img{
+    margin: 0 auto;
+}
