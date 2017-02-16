@@ -270,6 +270,17 @@ img{
     .portfolio-box img{
         width: 100%;
     }
+    .header-content .btn {
+        margin: 0px 2px;
+        padding: 15px 18px;
+    }
+    .nav > li {
+        display: block !important;
+    }
+    .navbar-nav > li {
+        float: none !important;
+        direction: rtl;
+    }
 }
 .nav > li {
     display: inline-block;
@@ -283,4 +294,16 @@ img{
 }
 .contact_us img{
     margin: 0 auto;
+}
+.affix{
+    background: #fff;
+    border-bottom: 3px solid #c0392b;
+    z-index: 1000;
+}
+.affix .navbar-brand, .affix .navbar-nav li a{
+    color: #34495e;
+    text-shadow: none;
+}
+.affix .navbar-nav li a:hover{
+    color: #2c3e50;
 }

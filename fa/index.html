@@ -24,7 +24,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-default">
+      <nav class="navbar navbar-default" data-spy="affix" data-offset-top="250">
         <div class="container-fluid">
           <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -42,11 +42,11 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">درباره ما</a></li>
-                <li><a href="#">راه کار ها</a></li>
-                <li><a href="#">پروژه ها</a></li>
-                <li><a href="#">خانواده faceX</a></li>
-                <li><a href="#">تماس با ما</a></li>
+                <li><a href="#" onclick="$('#about').animatescroll();">درباره ما</a></li>
+                <li><a href="#" onclick="$('#solutions').animatescroll();">راه کار ها</a></li>
+                <li><a href="#" onclick="$('#projects').animatescroll();">پروژه ها</a></li>
+                <li><a href="#" onclick="$('#ourteam').animatescroll();">خانواده faceX</a></li>
+                <li><a href="#" onclick="$('#contact').animatescroll();">تماس با ما</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div>
@@ -418,7 +418,7 @@
           <h2 dir="rtl">تماس با ما</h2>
           <hr>
           <div class="col-md-5 rounded">
-            <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key= AIzaSyBoLWXAXYPzvVRtOV3faD0JoemmavdCdUM '></script><div style='overflow:hidden;height:400px;width:520px;'><div id='gmap_canvas' style='height:400px;width:520px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://embedmaps.org/'>embed google map on website</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=9fba828c732cd1f3273815397241b48a680b8858'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:13,center:new google.maps.LatLng(35.6891975,51.388973599999986),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(35.6891975,51.388973599999986)});infowindow = new google.maps.InfoWindow({content:'<strong>faceX</strong><br><br> Tehran<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+            <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key= AIzaSyBoLWXAXYPzvVRtOV3faD0JoemmavdCdUM '></script><div style='overflow:hidden;height:400px;width:100%;'><div id='gmap_canvas' style='height:400px;width:100%;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://embedmaps.org/'>embed google map on website</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=9fba828c732cd1f3273815397241b48a680b8858'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:13,center:new google.maps.LatLng(35.6891975,51.388973599999986),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(35.6891975,51.388973599999986)});infowindow = new google.maps.InfoWindow({content:'<strong>faceX</strong><br><br> Tehran<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
           </div>
           <div class="col-md-6 col-md-offset-1 text-center contact_us">
             <img src="images/logo.png" class="img-responsive" alt="">
@@ -440,5 +440,6 @@
     <script src="js/jquery.fittext.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/creative.js"></script>
+    <script src="js/animatescroll.min.js"></script>
   </body>
 </html>
