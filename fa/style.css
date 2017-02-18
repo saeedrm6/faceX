@@ -95,7 +95,7 @@ header{
     color: #fff;
     text-align: center;
     background-position: center;
-    background: url(images/imacc.jpg);
+    background-image: url(images/demo-1-bg.jpg);
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -119,7 +119,7 @@ header{
     padding: 90px 0px;
 }
 .header-content h1{
-    font-size: 80px;
+    font-size: 80px !important;
     text-shadow: 3px 2px #000;
 }
 .header-content h2{
@@ -281,6 +281,20 @@ img{
         float: none !important;
         direction: rtl;
     }
+    .header-content h1{
+        font-size: 55px !important;
+        width: 100% !important;
+    }
+    .header-content h2{
+       font-size: 33px !important;
+       line-height: 48px; 
+    }
+    .main-left {
+        left: 25% !important;
+    }
+    .main-right {
+        left: 75% !important;
+    }
 }
 .nav > li {
     display: inline-block;
@@ -309,4 +323,21 @@ img{
 }
 .c100{
     font-size: 90px !important;
+}
+.main-title2 {
+    top: 33% !important;
+    width: 100%;
+}
+.main-title3 {
+    top: 24% !important;
+    width: 100%;
+}
+.main-title4 {
+    top: 45% !important;
+}
+.main-left{
+    left: 40%;
+}
+.main-right{
+    left: 55%;
 }

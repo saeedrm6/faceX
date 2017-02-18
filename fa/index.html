@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+    <!---sa-->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <!---sa-->
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/circle.css">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
@@ -58,14 +63,17 @@
           </div>
         </div><!-- /.container-fluid -->
       </nav>
-      <div class="container">
-        <div class="header-content">
-          <h1>faceX Group</h1>
-          <hr>
-          <h2>راهکار های بر پایه وب ، امنیت و شبکه</h2>
-          <a href="#solutions" class="btn btn-primary wow rotateOut"><i class="glyphicon glyphicon-heart-empty"></i> راهکار های ما</a>
-          <a href="#contact" class="btn btn-primary wow rotateOut"><i class="glyphicon glyphicon-envelope"></i> تماس با ما</a>
+      <div class="large-header" id="large-header">
+        <div id="large-header" class="header-content large-header">
+        <canvas id="demo-canvas"></canvas>
+          <h1 class="main-title">faceX Group</h1>
+          <hr class="main-title main-title3">
+          <h2 class="main-title main-title2">راهکار های بر پایه وب ، امنیت و شبکه</h2>
+          <a href="#solutions" class="btn btn-primary wow rotateOut main-title main-title4 main-left"><i class="glyphicon glyphicon-heart-empty"></i> راهکار های ما</a>
+          <a href="#contact" class="btn btn-primary wow rotateOut main-title main-title4 main-right"><i class="glyphicon glyphicon-envelope"></i> تماس با ما</a>
+          
         </div>
+
       </div>
     </header>
 
@@ -425,7 +433,7 @@
               <ul class="nav text-center">
                 <li><a href="http://instagram.com/_u/Peyman_azizii"><i class="fa fa-2x fa-instagram icon--red"></i></a></li>
                 <li><a href="https://twitter.com/juntayson"><i class="fa fa-2x fa-twitter icon--blue"></i></a></li>
-                <li><a href=""><i class="fa fa-2x fa-github icon--asph"></i></a></li>
+                <li><a href="https://github.com/peymanazizi"><i class="fa fa-2x fa-github icon--asph"></i></a></li>
                 <li><a href=""><i class="fa fa-2x fa-linkedin icon--greens"></i></a></li>
               </ul>
               </center>
@@ -494,5 +502,11 @@
     <script src="js/wow.min.js"></script>
     <script src="js/creative.js"></script>
     <script src="js/animatescroll.min.js"></script>
+
+    <script src="js/TweenLite.min.js"></script>
+    <script src="js/EasePack.min.js"></script>
+    <script src="js/rAF.js"></script>
+    <script src="js/demo-1.js"></script>
+
   </body>
 </html>
