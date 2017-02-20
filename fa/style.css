@@ -23,7 +23,8 @@ hr.light {
 }
 
 a {
-    color: #f05f40;
+    /*color: #f05f40;*/
+    color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -31,7 +32,8 @@ a {
 
 a:hover,
 a:focus {
-    color: #eb3812;
+    /*color: #eb3812;*/
+    color: #fff;
 }
 
 h1,
@@ -340,4 +342,44 @@ img{
 }
 .main-right{
     left: 55%;
+}
+.skils h3{
+    font-size: 18px !important;
+}
+.items p{
+    font-size: 11px;
+    color: #a8a7a7;
+}
+.opensuse{
+    background: url(images/bg-contribution.svg) center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 350px;
+}
+.opensuse p{
+    text-align: justify;
+}
+#suse-logo{
+    position: relative;
+    top: 50%;
+    width: 100%;
+    transform: translateY(10%);
+}
+.media {
+    padding: 15px;
+    color: #fff;
+}
+.media-right {
+    display: table-cell;
+    vertical-align: top;
+    padding-left: 10px;
+}
+.media-body {
+    width: 0%;
+}
+.padd{
+    padding:16px;
+    margin-bottom: 10px;
 }
